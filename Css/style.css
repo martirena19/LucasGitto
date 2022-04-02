@@ -359,6 +359,9 @@ input[name="r"]{
     margin: auto;
     width: auto;
   }
+  .container-photos aside .navigation{
+    margin: auto;
+  }
 
   .container-all{
       transition: all 300ms cubic-bezier(1,0,0,1);
