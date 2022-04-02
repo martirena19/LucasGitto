@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Photogrphy LucasGitto</title>
+    <script src="https://kit.fontawesome.com/775c1cb76a.js" crossorigin="anonymous"></script>
+    <link href="Css/style.css" rel="stylesheet">
+    <meta name="viewport" content="widht=device-width, user-scalable=no, initial-scale=1.0, maxium-scale=1.0, minimun-scale=1.0">
+</head>
+<body>
+    <!--header - menu-->
+    <header>
+        <div  class="header-content">
+            <div class="logo">
+                <h1>Lucas<b>Gitto</b></h1>
+            </div>
+        
+            <div class="menu" id="show-menu">
+                <nav>
+                    <ul>
+                        <li class="menu-selected"><a href="#" class="text-menu-selected">Inicio</a></li>
+                        <li><a href="#photos">Fotografia</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="icon-menu">
+              <i class="fas fa-bars"></i>
+          </div>
+    </header>
+     <!--Portada-->
+     <div class="container-all" id="move-content">
+     <div class="container-cover">
+        <div class="container-info-cover">
+            <h1>A tu disposición!</h1>
+        </div>
+     </div>
+     <div class="container-content">
+         <article>
+             <h1>Información</h1>
+             <p>Hola! <br>
+                 Mi nombre es Lucas Gitto, tengo 19 años, soy de San Luis, Argentina.<br>
+                Me gusta la fotografia, lo cual me estoy dedicando a ello</p>
+         </article>
+        
+     </div>
+     <section id="photos">
+
+   <div class="container-photos">
+    <article>
+        <h1>Fotografias</h1>
+    </article>
+    <aside>
+    <div class="slidershow middle">
+
+        <div class="slides">
+          <input type="radio" name="r" id="r1" checked>
+          <input type="radio" name="r" id="r2">
+          <input type="radio" name="r" id="r3">
+          <input type="radio" name="r" id="r4">
+          <input type="radio" name="r" id="r5">
+          <input type="radio" name="r" id="r6">
+          <div class="slide s1">
+            <img src="IMG/lagoon.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="IMG/20220127_195507.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="IMG/IMG_4801.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="IMG/IMG_4819.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="IMG/IMG_4822.JPG" alt="">
+          </div>
+          <div class="slide">
+            <img src="IMG/Mountain.jpg" alt="">
+          </div>
+        </div>
+  
+        <div class="navigation">
+          <label for="r1" class="bar"></label>
+          <label for="r2" class="bar"></label>
+          <label for="r3" class="bar"></label>
+          <label for="r4" class="bar"></label>
+          <label for="r5" class="bar"></label>
+          <label for="r6" class="bar"></label>
+        </div>
+      </div>
+    </aside>
+   </div>
+</section>
+  <div class="container-footer">
+    <footer>
+      <div class="logo-footer">
+        <h1>Lucas<b>Gitto</b></h1>
+      </div>
+      <div class="redes-footer">
+          <a href="#"><i class="fa-brands fa-instagram icon-redes-footer"></i></a>
+          <a href="#"><i class="fa-brands fa-whatsapp icon-redes-footer"></i></a>
+      </div>
+      <hr>
+      <h4>© 2022 LucasGitto Copyright - Todos los derechos reservados</h4>
+    </footer>
+  </div>
+  <div id="button-up" style="transform: scale(1);">
+    <i class="fas fa-chevron-up" aria-hidden="true"></i>
+  </div>
+</div>
+  <script src="JS/script.js"></script>
+</body>
+</html>
